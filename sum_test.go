@@ -9,4 +9,8 @@ func TestSum(t *testing.T) {
 	if result != 5 {
 		t.Error("The result mus be 5")
 	}
+
+	if result == 5 {
+		t.Log("The result is 5")
+	}
 }
